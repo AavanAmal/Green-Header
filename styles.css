@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    height: 4vh;
+    width: 100%;
+    background-color: rgb(119, 232, 156);
+}
+header {
+    display: flex;
+}
+.navcontainer{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(119, 232, 156);
+    margin:0px 0px;
+}
+.logo{
+    position: absolute;
+    display:flex;
+    height: 100%;
+    width: 5%;
+    margin-left: 10px;
+}
+.navlinks{
+    position: absolute;
+    list-style-type: none;
+    display:flex;
+    height: 40px ;
+    width:25% ;
+    background-color:rgb(119, 232, 156);
+    align-items: center;
+    justify-content: space-around;
+    margin: 13px 1100px;
+}
+.navlinks li{
+    color: grey;
+}
+.navlinks li:hover{
+    color: black;
+}
